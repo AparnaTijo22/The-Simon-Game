@@ -1,0 +1,52 @@
+body{
+    background-color: #011F3F;
+    height: 98vh;
+}
+
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 1.5fr repeat(2, 3fr);
+    height: 98vh;
+    grid-column-gap: 40px;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.7rem;
+    grid-column: span 2;
+    text-align: center;
+    color: #FFEBEB;
+}
+
+.btn{
+    height: 220px;
+    width: 220px;
+    border-radius: 40px;
+    border: 10px solid black;
+}
+
+#A, #C{
+    justify-self: right;
+}
+
+#A{
+    background-color: green;
+}
+
+.glow{
+    box-shadow: 0 0 20px 10px white;
+}
+
+#B{
+    background-color: red;
+}
+
+#C{
+    background-color: yellow;
+}
+
+#D{
+    background-color: blue;
+}
